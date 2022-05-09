@@ -1,3 +1,4 @@
+
 const pangram = (str) => {
     const alphabet = 'abcdefghijklmnopqrstuvwxyz';
     let strLower = str.toLowerCase();
@@ -16,5 +17,6 @@ const pangram = (str) => {
     }
 
 }
+
 
 console.log(pangram('The quick brown fox jumps over the lazy dog'));
